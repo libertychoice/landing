@@ -1,0 +1,13 @@
+.logo {
+    height: 70px;
+}
+
+.t-nav {
+    display: table;
+    width: 700px;
+    }
+    
+.t-item {
+    list-style: none;
+    display: table-cell
+    }
