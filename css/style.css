@@ -1,5 +1,9 @@
+
+
+
 .logo {
-    height: 70px;
+    height: 20%;
+    width: 20%;
 }
 
 .t-nav {
@@ -9,5 +13,42 @@
     
 .t-item {
     list-style: none;
-    display: table-cell
+    display: table-cell;
     }
+
+.link-standard {
+    font-weight: bold;
+    color: white;
+}
+
+.link-standard:hover {
+    color: #73BCE1;
+}
+.block-0 {
+    border: 10px solid #309DD4;
+    height: 100%
+}
+.block-1 {
+    background-color: #235D7A;
+    height: 10%;
+}
+
+.block-2 {
+    background-color: #15435A;
+    height: 90%;
+}
+
+.block-3 {
+    height: 100%;
+    background-color: white;
+}
+
+.block-4 {
+    display: block;
+    margin: 0 auto;
+}
+
+.phone {
+    height: 70%;
+    width: 70%;
+}
