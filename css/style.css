@@ -2,9 +2,7 @@
 
 
 .logo {
-    display: flex;
     height: 90%;
-    width: auto;
 }
 
 .t-nav {
@@ -31,7 +29,7 @@
 }
 .block-1 {
     background-color: #235D7A;
-    height: 20%;
+    height: 10%;
 }
 
 .block-2 {
@@ -69,8 +67,7 @@
     
 }
 .phone {
-    display: flex;
-    height: auto;
+    display: none;
     width: 70%;
     vertical-align: bottom;
 }
@@ -80,7 +77,7 @@ h1 {
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
     /* margin-left: 5%; */
 }
@@ -90,7 +87,7 @@ h1 {
 h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
     /* margin-left: 5%; */
 }
@@ -186,7 +183,66 @@ h2 {
     display: flex;
 }
 
-@media (min-width : 700px) and (min-height: 400px) {
+/*and (max-height: 400px)*/
+@media (max-width : 400px)  {
+
+    .logo {
+        height: 50%;
+    }
+    
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .text{
+        font-size: 5px;
+    }
+
+    .btn-1 {
+        width: 80px;
+        height: 20px;
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .pages {
+        margin: 1px;
+        font-size: 6px;
+    }
+
+    .phone {
+        display: none!important;
+    }
+
+    .image {
+        display: none!important;
+    }
+    
+    .link-standard {
+       font-size: 5px;
+    }
+    
+    .block-1 {
+        height: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width : 600px) and (min-height: 400px) {
     h1 {
         font-size: 25px;
     }
@@ -200,9 +256,9 @@ h2 {
     }
 
     .btn-1 {
-        width: 200px;
-        height: 50px;
-        font-size: 15px;
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
     }
 
     .pages {
@@ -210,7 +266,6 @@ h2 {
     }
 
     .phone {
-        height: 70%;
         width: 70%;
         display: flex;
     }
@@ -220,20 +275,22 @@ h2 {
     }
     
     .link-standard {
-       font-size: 16px;
+       font-size: 10px;
     }
     
     .block-1 {
         height: 10%;
     }
 }
-@media (min-width : 900px) and (min-height: 900px) {
+
+/* and (min-height: 900px) */
+@media (min-width : 900px){
     h1 {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .text{
@@ -251,7 +308,6 @@ h2 {
     }
 
     .phone {
-        height: 70%;
         width: 70%;
         display: flex;
     }
